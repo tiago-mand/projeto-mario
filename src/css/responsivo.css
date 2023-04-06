@@ -1,4 +1,10 @@
  @media (max-width: 376px) {
+             .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
             .modal #video {
                 width: 250px;
                 height: 140px;
