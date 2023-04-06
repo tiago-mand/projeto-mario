@@ -1,3 +1,16 @@
+@media (max-width: 376px)
+            .modal #video {
+                width: 250px;
+                height: 140px;
+            }
+        }
+
+@media (max-width: 500px) {
+        .cabecalho {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
 @media (max-width: 1200px) {
     body {
         background-color: #F44336;
@@ -43,12 +56,6 @@
     background-color: #263238;
     }
 }
-@media (max-width: 500px) {
-        .cabecalho {
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-        }
 
         .container .imagem-titulo {
             max-width: 75%;
@@ -65,10 +72,4 @@
         }
     }
 
- @media (max-width: 376px)
-            .modal #video {
-                width: 250px;
-                height: 140px;
-            }
-        }
-    
+ 
