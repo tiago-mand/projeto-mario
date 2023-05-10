@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+  .jumbotron {
+    background-size: contain;
+    background-position: center;
+  }
+}
+
 @media (max-width: 376px)
             .modal #video {
                 width: 250px;
